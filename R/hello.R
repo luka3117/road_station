@@ -6,5 +6,4 @@ Michi_Eki_data<- read.csv("Michi_Eki_data.csv", fileEncoding="cp932")
 iris.df<-iris
 iris.list<-iris3
 iris.list1<-iris3
-asasasa<-iris3
-# aa<-iris3
+道の駅<-iris3
