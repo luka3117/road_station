@@ -7,4 +7,5 @@ iris.df<-iris
 iris.list<-iris3
 iris.list1<-iris3
 道の駅<-iris3
-道の駅1<-iris3
+
+道の駅１<-iris3
