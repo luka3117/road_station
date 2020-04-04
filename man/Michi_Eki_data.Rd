@@ -5,8 +5,10 @@
 道の駅データ
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
-}
+広島　乙九日祭りに来たお客さんを対象に地産地消に関する意識調査をおこなんた
+アンケート調査データ、
+購入品目に関する調査も行った。
+20171023}
 \usage{data("Michi_Eki_data")}
 \format{
   A data frame with 69 observations on the following 36 variables.
