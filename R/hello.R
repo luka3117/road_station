@@ -2,9 +2,27 @@
 #   Check Package:             'Ctrl + Shift + E'
 #   Test Package:              'Ctrl + Shift + T'
 
-Michi_Eki_data<- read.csv("Michi_Eki_data.csv", fileEncoding="cp932")
-道の駅<- read.csv("Michi_Eki_data.csv", fileEncoding="cp932")
+# 使用package
+# suppressMessages(library(tidyverse))
 
-iris.df<-iris
-iris.list<-iris3
-iris.list1<-iris3
+Michi_Eki_data <- read.csv("Michi_Eki_data.csv", fileEncoding = "cp932")
+道の駅 <- read.csv("Michi_Eki_data.csv", fileEncoding = "cp932")
+
+道の駅アソシエーションデータ <-
+  道の駅[c("野菜",
+     "果実",
+     "漬物",
+     "花木",
+     "米",
+     "魚及び加工品",
+     "畜産品",
+     "卵",
+     "牛乳及び加工品",
+     "きのこ",
+     "山菜",
+     "なし")]
+
+
+# iris.df<-iris
+# iris.list<-iris3
+# iris.list1<-iris3
