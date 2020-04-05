@@ -23,6 +23,14 @@ Michi_Eki_data <- read.csv("Michi_Eki_data.csv", fileEncoding = "cp932")
      "なし")]
 
 
+d <- read.csv("乙九日アンケート20171023.csv", fileEncoding = "cp932")
+d <- d[,c(1,2,11:25)]
+d <- d[,-c(11,16)]
+colnames(d)[15] <- "菓子類"
+
+
+x <- d[,4:15]
+
 # iris.df<-iris
 # iris.list<-iris3
 # iris.list1<-iris3

@@ -1,5 +1,6 @@
 remove.packages("RoadStation")
 
+# install.packages("RoadStation_0.1.0.tar.gz", repos = NULL)
 devtools::install_local("/Users/jclee/road_station")
 # devtools::install_github("luka3117/road_station")
 
@@ -8,6 +9,8 @@ library(RoadStation)
 RoadStation::
 
 help(Michi_Eki_data)
+help(Michi_Eki_data)
+
 
 
 道の駅購入商品
